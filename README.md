@@ -1,28 +1,24 @@
-# Adonis API application
+# Aula sobre AdonisJS
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+Esse projeto foi realizado para o aprendizado da ferramenta AdonisJS, seguindo a aula da Rocketseat.
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+## Ferramentas utilizadas
 
-## Setup
+* PostgreSQL
+* Redis
 
-Use the adonis command to install the blueprint
+## Como instalar e configurar
 
-```bash
-adonis new yardstick --api-only
-```
+* `git clone https://github.com/rebeccapanisset/rocketseat-adonisjs.git`
+* Entre na pasta do projeto `cd rocketseat-adonisjs`
+* `yarn install` (para instalar todas as dependências)
+* Criar e preencher o arquivo `.env` de acordo com o arquivo base `.env.example`
+* `adonis key:generate` (para gerar a APP_KEY)
+* Criar um banco de dados com o nome de "adonis"
+* `adonis migration:run` (para executar os arquivos de migration)
 
-or manually clone the repo and then run `npm install`.
+## Como executar
 
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+* `adonis serve --dev` (para executar em modo de desenvlvimento)
+* `yarn start` (para executar)
+* `adonis kue:listen` (para executar a fila de envio de e-mail)
