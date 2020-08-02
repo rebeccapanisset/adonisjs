@@ -9,7 +9,7 @@ Esse projeto foi realizado para o aprendizado da ferramenta AdonisJS, seguindo a
 
 ## Como instalar e configurar
 
-* `git clone https://github.com/rebeccapanisset/rocketseat-adonisjs.git`
+* `git clone https://github.com/rebeccapanisset/adonisjs.git`
 * Entre na pasta do projeto `cd rocketseat-adonisjs`
 * `yarn install` (para instalar todas as dependências)
 * Criar e preencher o arquivo `.env` de acordo com o arquivo base `.env.example`
