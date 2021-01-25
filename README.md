@@ -1,24 +1,24 @@
-# Aula sobre AdonisJS
+# AdonisJS Class
 
-Esse projeto foi realizado para o aprendizado da ferramenta AdonisJS, seguindo a aula da Rocketseat.
+This project was developed to learn about AdonisJS, following the Rocketseat classes.
 
-## Ferramentas utilizadas
+## Used Technologies
 
+* AdonisJS
 * PostgreSQL
 * Redis
 
-## Como instalar e configurar
+## How to Install and Configure
 
 * `git clone https://github.com/rebeccapanisset/adonisjs.git`
-* Entre na pasta do projeto `cd rocketseat-adonisjs`
-* `yarn install` (para instalar todas as dependências)
-* Criar e preencher o arquivo `.env` de acordo com o arquivo base `.env.example`
-* `adonis key:generate` (para gerar a APP_KEY)
-* Criar um banco de dados com o nome de "adonis"
-* `adonis migration:run` (para executar os arquivos de migration)
+* Open the project folder `cd rocketseat-adonisjs`
+* `yarn install` (installs all dependencies)
+* Create and fill `.env` file according to the base file `.env.example`
+* `adonis key:generate` (generates the application key)
+* Create a PostgreSQL database named 'adonis'
+* `adonis migration:run` (creates database tables)
 
-## Como executar
+## How to Execute
 
-* `adonis serve --dev` (para executar em modo de desenvlvimento)
-* `yarn start` (para executar)
-* `adonis kue:listen` (para executar a fila de envio de e-mail)
+* `adonis serve` to start server, or `adonis serve --dev` to start the development mode
+* `adonis kue:listen` (starts the kue manager)
